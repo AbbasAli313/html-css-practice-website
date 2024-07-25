@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#image1 {
+  width: 20%;
+  height: 20%;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: blue;
+  text-decoration: none;
+}
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+.home div {
+  padding-top: 130px;
+}
+.home img {
+  margin-left: 30px;
+  width: 30px;
+  margin-top: 30px;
+}
+.home h2 {
+  font-size: 35px;
+  font-weight: 800px;
+  margin-left: 10px;
+}
+.home input {
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+section {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+section p {
+  padding-top: 20px;
+}
